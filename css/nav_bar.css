@@ -4,7 +4,7 @@
     z-index: 10;
     background: var(--bg-navibar);
     border-bottom: 1px solid var(--border);
-    font-size: 2em
+    font-size: 1.3em
 }
 
 .navbar .wrap {
