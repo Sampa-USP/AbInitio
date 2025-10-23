@@ -2,7 +2,7 @@
     position: sticky;
     top: 0;
     z-index: 10;
-    background: (var --bg);
+    background: (var --bg-navibar);
     border-bottom: 1px solid var(--border)
 }
 
@@ -21,7 +21,7 @@
 }
 
 .nav a {
-    color: var(--link);
+    color: var(--link-claro);
     text-decoration: none
 }
 
@@ -30,7 +30,7 @@
 }
 
 .brand a {
-    color: var(--text-hover);
+    color: var(--link-claro-hover);
     /* mantém branco */
     font-weight: bold;
     /* mantém negrito */
