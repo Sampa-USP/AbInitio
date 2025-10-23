@@ -1,0 +1,179 @@
+/* ocupa 80% da tela e 100% da altura útil */
+.layout {
+    display: grid;
+    grid-template-columns: 320px 1fr;
+    gap: 16px;
+    width: 100%;
+    /* 80% da viewport */
+    margin: 0 auto;
+    /* centraliza */
+    height: calc(100vh - 64px);
+    /* 100% da altura útil (desconta o header) */
+}
+
+.sidebar {
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    background: var(--card);
+    padding: 12px;
+    overflow-y: auto;
+    /* rolagem lateral se a árvore crescer */
+}
+
+.viewer {
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    background: #0b1220;
+    overflow: hidden;
+}
+
+#viewer {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 12px;
+}
+
+.search {
+    width: 100%;
+    padding: 8px 10px;
+    border-radius: 8px;
+    border: 1px solid var(--border);
+    background: #0b1220;
+    color: var(--fg);
+    margin-bottom: 10px
+}
+
+.tree {
+    list-style: none;
+    padding-left: 0;
+    margin: 0
+}
+
+.node {
+    margin: 2px 0
+}
+
+.label {
+    cursor: pointer;
+    padding: 2px 4px;
+    border-radius: 6px;
+    display: inline-block
+}
+
+.label:hover {
+    background: #111827
+}
+
+.dir>.label::before {
+    content: "▸";
+    display: inline-block;
+    width: 1em;
+    color: var(--muted)
+}
+
+.dir.open>.label::before {
+    content: "▾"
+}
+
+.children {
+    margin-left: 18px;
+    display: none
+}
+
+.dir.open>.children {
+    display: block
+}
+
+.file-notebook::after {
+    content: ".ipynb";
+    color: var(--muted);
+    font-size: .8rem;
+    margin-left: 6px
+}
+
+.viewer {
+    overflow: hidden;
+}
+
+#viewer {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 12px;
+}
+
+/* container principal da página Software */
+.main-wide {
+    width: 90%;
+    margin: 32px auto;
+    /* centraliza e dá espaço em cima/baixo */
+    padding: 0 0 16px 0;
+    /* opcional: espaço inferior antes do layout */
+}
+
+
+/* ===== Estudos (layout/sidebar + viewer) ===== */
+.layout {
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    /* desktop */
+    gap: 16px;
+    min-height: calc(100svh - 80px);
+    /* ajusta à altura da viewport */
+}
+
+/* Sidebar rolável em telas pequenas */
+.sidebar {
+    overflow: hidden;
+    /* evita scroll duplo no container */
+}
+
+.sidebar .tree {
+    max-height: 70svh;
+    overflow: auto;
+}
+
+/* Viewer ocupa todo o espaço e permite rolagem (inclui horizontal) */
+.viewer {
+    overflow: auto;
+    /* <- garante scroll dentro da área do viewer */
+}
+
+/* Iframe responsivo */
+.viewer iframe {
+    display: block;
+    width: 100%;
+    height: 100%;
+    min-height: 70svh;
+    /* altura mínima confortável */
+    border: 0;
+}
+
+/* ----- Mobile: colapsa para uma coluna, sem corte lateral ----- */
+@media (max-width: 900px) {
+    .layout {
+        grid-template-columns: 1fr;
+        /* vira 1 coluna */
+    }
+
+    .sidebar {
+        order: 1;
+    }
+
+    .viewer {
+        order: 2;
+        min-height: 60svh;
+        /* dá área útil ao iframe */
+    }
+
+    /* Segurança extra contra corte horizontal */
+    html,
+    body,
+    .layout,
+    .viewer {
+        max-width: 100vw;
+        overflow-x: hidden;
+        /* evita “vazamento” do grid */
+    }
+}

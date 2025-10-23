@@ -1,0 +1,20 @@
+/* common.css */
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", Arial;
+    background: var(--bg);
+    color: var(--fg);
+}
+
+a {
+    color: var(--link);
+}

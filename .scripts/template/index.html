@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>{{TITLE}}</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="./css/paleta_cores.css" />
+  <link rel="stylesheet" href="./css/software.css" />
+  <link rel="stylesheet" href="./css/nav_bar.css" />
+  <link rel="stylesheet" href="./css/pages.css" />
+  <link rel="stylesheet" href="./css/home.css" />
+  <script src="./js/app.js" defer></script>
+</head>
+
+<body>
+  <header class="navbar">
+    <div class="wrap">
+      <div class="brand"><a href="./index.html">Homepage</a></div>
+      <nav class="nav">
+        <a href="./research.html">Bibliography</a>
+        <a href="./software.html">Research</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- HERO: imagem de destaque do repositório -->
+    <section class="hero" role="img" aria-label="Imagem temática do repositório">
+      <div class="hero__overlay"></div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <h2>Sobre</h2>
+      <div class="card grid">
+        <div>
+
+
+          <p class="muted">Last Updated at {{TIMESTAMP}} • Total de notebooks: <span id="nbcount">{{NBCOUNT}}</span></p>
+          <p>
+            <strong>Contact:</strong><br>
+            nara.moraes@usp.br ·
+            <a href="https://github.com/sampa-usp/AbInitio" target="_blank">GitHub</a>
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>

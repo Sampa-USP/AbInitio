@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>{{TITLE}} — Estudos</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="./css/paleta_cores.css" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" href="./css/nav_bar.css" />
+    <link rel="stylesheet" href="./css/pages.css" />
+    <link rel="stylesheet" href="./css/software.css" />
+</head>
+
+<body>
+    <header class="navbar">
+        <div class="wrap">
+            <div class="brand"><a href="./index.html">Homepage</a></div>
+            <nav class="nav">
+                <a href="./research.html">Bibliography</a>
+                <a href="./software.html">Research</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="main-wide">
+        <div class="layout">
+            <aside class="sidebar">
+                <input id="q" class="search" placeholder="Filter notebooks..." />
+                <ul id="tree" class="tree"></ul>
+            </aside>
+            <section class="viewer">
+                <iframe id="viewer" src=""></iframe>
+            </section>
+        </div>
+    </main>
+
+    <!-- injeta a árvore apenas nesta página -->
+    <script>window.TREE_DATA = {{ TREE_JSON }};</script>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
