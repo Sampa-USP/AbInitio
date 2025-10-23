@@ -44,4 +44,4 @@
   color: (var --bg);
   transition: transform .12s ease, background .12s ease;
 }
-.btn--light:hover { transform: translateY(-1px); background: (var --text-hover)); }
+.btn--light:hover { transform: translateY(-1px); background: (var --text-hover); }
