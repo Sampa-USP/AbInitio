@@ -4,6 +4,7 @@
   --fg: #050d1b;           /* seções e áreas secundárias */
   --card: #eef4fb;         /* cartões / blocos */
   --border: #e4ebf2;       /* linhas e contornos muito sutis */
+  --bg-navibar: #062543;  /* fundo da barra de navegação */
 
   /* ===== Texto ===== */
   --text: #1e293b;         /* texto principal (azul-acinzentado) */
@@ -11,7 +12,12 @@
   --muted: #94a3b8;        /* texto desativado ou notas */
   --text-hover: #0f172a;   /* cor quando o texto recebe foco ou hover */
 
-  /* ===== Acentos e links ===== */
+  /* ===== Acentos e links claros ===== */
+  --accent-claro: #588ee4;       /* azul suave principal */
+  --link-claro: #c1cce6;         /* link em destaque */
+  --link-claro-hover: #7082be;   /* azul mais profundo no hover */
+
+  /* ===== Acentos e links escuros===== */
   --accent: #3b82f6;       /* azul suave principal */
   --link: #1959e3;         /* link em destaque */
   --link-hover: #1e40af;   /* azul mais profundo no hover */
