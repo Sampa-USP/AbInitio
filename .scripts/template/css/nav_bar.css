@@ -2,7 +2,7 @@
     position: sticky;
     top: 0;
     z-index: 10;
-    background: (var --bg-navibar);
+    background: var(--bg-navibar);
     border-bottom: 1px solid var(--border)
 }
 

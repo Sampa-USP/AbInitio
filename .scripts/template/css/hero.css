@@ -23,12 +23,12 @@
 .hero__title {
   margin: 0 0 .5rem;
   font-size: clamp(1.8rem, 3.8vw, 3rem);
-  color: (var --text-hover);
+  color: var(--text-hover);
   letter-spacing: .5px;
 }
 .hero__subtitle {
   margin: 0 auto 1.25rem;
-  color: (var --text-subtitle);
+  color: var(--text-subtitle);
   opacity: .95;
   line-height: 1.45;
 }
@@ -41,7 +41,7 @@
 }
 .btn--light {
   background: rgba(255,255,255,.9);
-  color: (var --bg);
+  color: var(--bg);
   transition: transform .12s ease, background .12s ease;
 }
-.btn--light:hover { transform: translateY(-1px); background: (var --text-hover); }
+.btn--light:hover { transform: translateY(-1px); background: var(--text-hover); }

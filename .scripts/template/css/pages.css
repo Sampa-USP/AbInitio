@@ -61,5 +61,5 @@ main.page-container {
 
 main.page-container h2 {
     margin-top: 0;
-    color: (var --text-hover);
+    color: var(--text-hover);
 }
