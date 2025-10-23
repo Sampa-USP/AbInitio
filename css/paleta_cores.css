@@ -1,6 +1,6 @@
 :root {
   /* ===== Fundo e superfícies ===== */
-  --bg: #ffffff;           /* fundo geral quase branco */
+  --bg: #f6f6fe;           /* fundo geral quase branco */
   --fg: #050d1b;           /* seções e áreas secundárias */
   --card: #eef4fb;         /* cartões / blocos */
   --border: #e4ebf2;       /* linhas e contornos muito sutis */
