@@ -10,7 +10,7 @@
   min-height: 52vh;
   border-radius: 16px;
   margin: 1.25rem 0 2rem;
-  background: #111 center / cover no-repeat url("../assets/img/hero.gif");
+  background: (var --bg) center / cover no-repeat url("../assets/img/hero.gif");
   display: grid;
   place-items: center;
   overflow: hidden;
@@ -28,12 +28,12 @@
 .hero__title {
   margin: 0 0 .5rem;
   font-size: clamp(1.8rem, 3.8vw, 3rem);
-  color: #fff;
+  color: (var --text-hover);
   letter-spacing: .5px;
 }
 .hero__subtitle {
   margin: 0 auto 1.25rem;
-  color: #f1f1f1;
+  color: (var --text-subtitle);
   opacity: .95;
   line-height: 1.45;
 }
@@ -46,10 +46,10 @@
 }
 .btn--light {
   background: rgba(255,255,255,.9);
-  color: #111;
+  color: (var --bg);
   transition: transform .12s ease, background .12s ease;
 }
-.btn--light:hover { transform: translateY(-1px); background: #fff; }
+.btn--light:hover { transform: translateY(-1px); background: (var --text-hover)); }
 
 /* Cards e imagens */
 .repo-thumb, .avatar {
@@ -58,7 +58,7 @@
   display: block;
   border-radius: 12px;
   object-fit: cover;
-  background: #0f1620;
+  background: (var --bg);
 }
 .author {
   display: grid;
