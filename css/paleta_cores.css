@@ -1,9 +1,9 @@
 :root {
   /* ===== Fundo e superfícies ===== */
-  --bg: #f9fbfe;           /* fundo geral quase branco */
+  --bg: #ffffff;           /* fundo geral quase branco */
   --fg: #050d1b;           /* seções e áreas secundárias */
   --card: #eef4fb;         /* cartões / blocos */
-  --border: #d6e2f0;       /* linhas e contornos muito sutis */
+  --border: #e4ebf2;       /* linhas e contornos muito sutis */
 
   /* ===== Texto ===== */
   --text: #1e293b;         /* texto principal (azul-acinzentado) */
@@ -13,7 +13,7 @@
 
   /* ===== Acentos e links ===== */
   --accent: #3b82f6;       /* azul suave principal */
-  --link: #2563eb;         /* link em destaque */
+  --link: #1959e3;         /* link em destaque */
   --link-hover: #1e40af;   /* azul mais profundo no hover */
 
   /* ===== Extras opcionais ===== */
