@@ -1,12 +1,23 @@
 :root {
-    --bg: #f2f6fd;
-    --fg: #e2e8f0;
-    --muted: #94a3b8;
-    --accent: #60a5fa;
-    --link: #bfdbfe;
-    --card: #c8dcf8;
-    --border: #334155;
-    --text: #a8d0ff;
-    --text-hover: #ffffff;
-    --text-subtitle: #f1f1f1;
+  /* ===== Fundo e superfícies ===== */
+  --bg: #f9fbfe;           /* fundo geral quase branco */
+  --fg: #f2f6fd;           /* seções e áreas secundárias */
+  --card: #eef4fb;         /* cartões / blocos */
+  --border: #d6e2f0;       /* linhas e contornos muito sutis */
+
+  /* ===== Texto ===== */
+  --text: #1e293b;         /* texto principal (azul-acinzentado) */
+  --text-subtitle: #475569;/* subtítulos ou textos leves */
+  --muted: #94a3b8;        /* texto desativado ou notas */
+  --text-hover: #0f172a;   /* cor quando o texto recebe foco ou hover */
+
+  /* ===== Acentos e links ===== */
+  --accent: #3b82f6;       /* azul suave principal */
+  --link: #2563eb;         /* link em destaque */
+  --link-hover: #1e40af;   /* azul mais profundo no hover */
+
+  /* ===== Extras opcionais ===== */
+  --shadow: rgba(15, 23, 42, 0.08); /* sombra sutil */
+  --white: #ffffff;
+  --black: #000000;
 }
