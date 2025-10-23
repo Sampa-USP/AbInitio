@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Notebooks Tree — AbInitio</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <link rel="stylesheet" href="./css/paleta_cores.css" />
+  <link rel="stylesheet" href="./css/software.css" />
+  <link rel="stylesheet" href="./css/nav_bar.css" />
+  <link rel="stylesheet" href="./css/pages.css" />
+  <link rel="stylesheet" href="./css/home.css" />
+  <script src="./js/app.js" defer></script>
+</head>
+
+<body>
+  <header class="navbar">
+    <div class="wrap">
+      <div class="brand"><a href="./index.html">Homepage</a></div>
+      <nav class="nav">
+        <a href="./research.html">Bibliography</a>
+        <a href="./software.html">Research</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- HERO: imagem de destaque do repositório -->
+    <section class="hero" role="img" aria-label="Imagem temática do repositório">
+      <div class="hero__overlay"></div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <h2>About</h2>
+      <div class="card grid">
+        <div>
+          <p>
+            This repository gathers a set of Jupyter notebooks exploring the interplay between quantum noise,
+            ground-state
+            computation, and machine learning techniques in quantum systems. The project investigates how quantum
+            hardware
+            imperfections influence the estimation of molecular ground-state energies, combining ab initio quantum
+            chemistry frameworks (such as PySCF and Qiskit Nature) with neural-network-based representations of quantum
+            states.
+          </p>
+          <p>
+            Different mapping techniques — including Jordan–Wigner, Bravyi–Kitaev, and parity encodings — are
+            implemented
+            to translate fermionic Hamiltonians into qubit operators. The notebooks also analyze strategies for error
+            mitigation and variational optimization, comparing classical and quantum samplers, and assessing the
+            stability
+            of energy landscapes in noisy environments. Together, these tools provide a flexible platform for testing
+            hybrid quantum-classical algorithms and studying the scalability of quantum simulations for chemical and
+            condensed-matter systems.
+          </p>
+          <p class="muted">Last Updated at 2025-10-23 00:45 UTC • Total de notebooks: <span id="nbcount">45</span></p>
+          <p>
+            <strong>Contact:</strong><br>
+            nara.moraes@usp.br ·
+            <a href="https://github.com/sampa-usp/AbInitio" target="_blank">GitHub</a>
+          </p>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+
+</html>
