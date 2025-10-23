@@ -1,7 +1,7 @@
 .avatar {
     width: 100%;
     border-radius: 12px;
-    background: #0b1220
+    background: (var --bg))
 }
 
 /* HERO */
@@ -76,11 +76,11 @@
 }
 
 section.section a {
-    color: #a8d0ff;          /* azul claro */
+    color: (var --text);          /* azul claro */
     text-decoration: none;   /* sem sublinhado */
 }
 
 section.section a:hover {
-    color: #ffffff;          /* branco ao passar o mouse */
+    color: (var --text-hover);          /* branco ao passar o mouse */
     text-decoration: underline;
 }
