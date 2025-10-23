@@ -27,7 +27,7 @@
   padding: 8px 10px;
   border-radius: 8px;
   border: 1px solid var(--border);
-  background: (var --bg);
+  background: var(--bg);
   color: var(--fg);
   margin-bottom: 10px;
   flex: 0 0 auto;
@@ -48,7 +48,7 @@
 .viewer {
   border: 1px solid var(--border);
   border-radius: 12px;
-  background: (var --bg);
+  background: var(--bg);
   overflow: hidden;
   min-height: 0;
   height: 100%;

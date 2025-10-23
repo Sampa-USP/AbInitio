@@ -1,7 +1,7 @@
 .avatar {
     width: 100%;
     border-radius: 12px;
-    background: (var --bg))
+    background: var(--bg)
 }
 
 
@@ -12,7 +12,7 @@
   display: block;
   border-radius: 12px;
   object-fit: cover;
-  background: (var --bg);
+  background: var(--bg);
 }
 .author {
   display: grid;
@@ -30,11 +30,11 @@
 }
 
 section.section a {
-    color: (var --text);          /* azul claro */
+    color: var(--text);          /* azul claro */
     text-decoration: none;   /* sem sublinhado */
 }
 
 section.section a:hover {
-    color: (var --text-hover);          /* branco ao passar o mouse */
+    color: var(--text-hover);          /* branco ao passar o mouse */
     text-decoration: underline;
 }
