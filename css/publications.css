@@ -1,0 +1,9 @@
+body.publications .pub-list ul {
+    list-style: disc;
+    padding-left: 20px;
+}
+
+body.publications .pub-list li {
+    margin-bottom: 12px;
+    line-height: 1.4;
+}

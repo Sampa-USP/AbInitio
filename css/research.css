@@ -1,0 +1,18 @@
+body.research .research-text ul {
+    margin-top: 10px;
+    padding-left: 20px;
+    list-style: disc;
+}
+
+.referencias a {
+    color: #a8d0ff;
+    /* azul claro */
+    text-decoration: none;
+    /* tira o sublinhado */
+}
+
+.referencias a:hover {
+    color: #ffffff;
+    /* branco ao passar o mouse */
+    text-decoration: underline;
+}

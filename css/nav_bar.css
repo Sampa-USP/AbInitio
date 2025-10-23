@@ -1,0 +1,39 @@
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background: #0b1220;
+    border-bottom: 1px solid var(--border)
+}
+
+.navbar .wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 12px 16px
+}
+
+.nav {
+    display: flex;
+    gap: 16px
+}
+
+.nav a {
+    color: var(--link);
+    text-decoration: none
+}
+
+.nav a:hover {
+    text-decoration: underline
+}
+
+.brand a {
+    color: #fff;
+    /* mantém branco */
+    font-weight: bold;
+    /* mantém negrito */
+    text-decoration: none;
+    /* tira sublinhado */
+}
