@@ -1,2 +1,12 @@
 nbconvert
 jupyter
+amazon-braket-sdk
+boto3
+qiskit-nature
+qiskit-aer
+qiskit-ibm-runtime
+qiskit_braket_provider
+pyscf
+pandas
+matplotlib
+numpy
