@@ -7575,12 +7575,12 @@ a.anchor-link {
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [ ]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [3]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1"># Install this modules on your virtual environment</span>
@@ -7594,6 +7594,226 @@ a.anchor-link {
 <span class="o">!</span>pip<span class="w"> </span>install<span class="w"> </span>qiskit_braket_provider
 <span class="o">!</span>pip<span class="w"> </span>install<span class="w"> </span>pyscf
 </pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain" tabindex="0">
+<pre>Collecting amazon-braket-sdk
+  Using cached amazon_braket_sdk-1.103.0-py3-none-any.whl.metadata (14 kB)
+Collecting amazon-braket-schemas&gt;=1.26.1 (from amazon-braket-sdk)
+  Using cached amazon_braket_schemas-1.26.1-py3-none-any.whl.metadata (6.1 kB)
+Collecting amazon-braket-default-simulator&gt;=1.32.0 (from amazon-braket-sdk)
+  Using cached amazon_braket_default_simulator-1.32.0-py3-none-any.whl.metadata (6.5 kB)
+Collecting oqpy~=0.3.7 (from amazon-braket-sdk)
+  Using cached oqpy-0.3.9-py3-none-any.whl.metadata (8.2 kB)
+Collecting backoff (from amazon-braket-sdk)
+  Using cached backoff-2.2.1-py3-none-any.whl.metadata (14 kB)
+Collecting boltons (from amazon-braket-sdk)
+  Using cached boltons-25.0.0-py3-none-any.whl.metadata (6.5 kB)
+Requirement already satisfied: boto3&gt;=1.28.53 in /Users/nara/Repository/Attention/Sampa-USP/AbInitio/.venv/lib/python3.14/site-packages (from amazon-braket-sdk) (1.40.58)
+Collecting cloudpickle==2.2.1 (from amazon-braket-sdk)
+  Using cached cloudpickle-2.2.1-py3-none-any.whl.metadata (6.9 kB)
+Collecting nest-asyncio (from amazon-braket-sdk)
+  Using cached nest_asyncio-1.6.0-py3-none-any.whl.metadata (2.8 kB)
+Collecting networkx (from amazon-braket-sdk)
+  Using cached networkx-3.5-py3-none-any.whl.metadata (6.3 kB)
+Requirement already satisfied: numpy in /Users/nara/Repository/Attention/Sampa-USP/AbInitio/.venv/lib/python3.14/site-packages (from amazon-braket-sdk) (2.3.4)
+Collecting openpulse (from amazon-braket-sdk)
+  Using cached openpulse-1.0.1-py3-none-any.whl.metadata (2.0 kB)
+Collecting openqasm3 (from amazon-braket-sdk)
+  Using cached openqasm3-1.0.1-py3-none-any.whl.metadata (6.0 kB)
+Collecting sympy (from amazon-braket-sdk)
+  Using cached sympy-1.14.0-py3-none-any.whl.metadata (12 kB)
+Collecting backports.entry-points-selectable (from amazon-braket-sdk)
+  Using cached backports.entry_points_selectable-1.3.0-py3-none-any.whl.metadata (4.1 kB)
+Collecting mypy-extensions&gt;=0.2.0 (from oqpy~=0.3.7-&gt;amazon-braket-sdk)
+  Using cached mypy_extensions-1.1.0-py3-none-any.whl.metadata (1.1 kB)
+Collecting numba (from amazon-braket-default-simulator&gt;=1.32.0-&gt;amazon-braket-sdk)
+  Using cached numba-0.62.1.tar.gz (2.7 MB)
+  Installing build dependencies ... done
+  Getting requirements to build wheel ... error
+  <span class="ansi-red-intense-fg ansi-bold">error</span>: <span class="ansi-bold">subprocess-exited-with-error</span>
+  
+  <span class="ansi-red-fg">×</span> <span class="ansi-green-fg">Getting requirements to build wheel</span> did not run successfully.
+  <span class="ansi-red-fg">│</span> exit code: <span class="ansi-cyan-intense-fg ansi-bold">1</span>
+  <span class="ansi-red-fg">╰─&gt;</span> <span class="ansi-red-fg">[24 lines of output]</span>
+  <span class="ansi-red-fg">   </span> Traceback (most recent call last):
+  <span class="ansi-red-fg">   </span>   File <span class="ansi-magenta-fg">"/Users/nara/Repository/Attention/Sampa-USP/AbInitio/.venv/lib/python3.14/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py"</span>, line <span class="ansi-magenta-fg">389</span>, in <span class="ansi-magenta-fg">&lt;module&gt;</span>
+  <span class="ansi-red-fg">   </span>     <span class="ansi-red-fg">main</span><span class="ansi-red-intense-fg ansi-bold">()</span>
+  <span class="ansi-red-fg">   </span>     <span class="ansi-red-fg">~~~~</span><span class="ansi-red-intense-fg ansi-bold">^^</span>
+  <span class="ansi-red-fg">   </span>   File <span class="ansi-magenta-fg">"/Users/nara/Repository/Attention/Sampa-USP/AbInitio/.venv/lib/python3.14/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py"</span>, line <span class="ansi-magenta-fg">373</span>, in <span class="ansi-magenta-fg">main</span>
+  <span class="ansi-red-fg">   </span>     json_out["return_val"] = <span class="ansi-red-fg">hook</span><span class="ansi-red-intense-fg ansi-bold">(**hook_input["kwargs"])</span>
+  <span class="ansi-red-fg">   </span>                              <span class="ansi-red-fg">~~~~</span><span class="ansi-red-intense-fg ansi-bold">^^^^^^^^^^^^^^^^^^^^^^^^</span>
+  <span class="ansi-red-fg">   </span>   File <span class="ansi-magenta-fg">"/Users/nara/Repository/Attention/Sampa-USP/AbInitio/.venv/lib/python3.14/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py"</span>, line <span class="ansi-magenta-fg">143</span>, in <span class="ansi-magenta-fg">get_requires_for_build_wheel</span>
+  <span class="ansi-red-fg">   </span>     return hook(config_settings)
+  <span class="ansi-red-fg">   </span>   File <span class="ansi-magenta-fg">"/private/var/folders/g1/_sv3n23d2yq5w04jzglv_r580000gn/T/pip-build-env-krk50o1e/overlay/lib/python3.14/site-packages/setuptools/build_meta.py"</span>, line <span class="ansi-magenta-fg">331</span>, in <span class="ansi-magenta-fg">get_requires_for_build_wheel</span>
+  <span class="ansi-red-fg">   </span>     return <span class="ansi-red-fg">self._get_build_requires</span><span class="ansi-red-intense-fg ansi-bold">(config_settings, requirements=[])</span>
+  <span class="ansi-red-fg">   </span>            <span class="ansi-red-fg">~~~~~~~~~~~~~~~~~~~~~~~~</span><span class="ansi-red-intense-fg ansi-bold">^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+  <span class="ansi-red-fg">   </span>   File <span class="ansi-magenta-fg">"/private/var/folders/g1/_sv3n23d2yq5w04jzglv_r580000gn/T/pip-build-env-krk50o1e/overlay/lib/python3.14/site-packages/setuptools/build_meta.py"</span>, line <span class="ansi-magenta-fg">301</span>, in <span class="ansi-magenta-fg">_get_build_requires</span>
+  <span class="ansi-red-fg">   </span>     <span class="ansi-red-fg">self.run_setup</span><span class="ansi-red-intense-fg ansi-bold">()</span>
+  <span class="ansi-red-fg">   </span>     <span class="ansi-red-fg">~~~~~~~~~~~~~~</span><span class="ansi-red-intense-fg ansi-bold">^^</span>
+  <span class="ansi-red-fg">   </span>   File <span class="ansi-magenta-fg">"/private/var/folders/g1/_sv3n23d2yq5w04jzglv_r580000gn/T/pip-build-env-krk50o1e/overlay/lib/python3.14/site-packages/setuptools/build_meta.py"</span>, line <span class="ansi-magenta-fg">512</span>, in <span class="ansi-magenta-fg">run_setup</span>
+  <span class="ansi-red-fg">   </span>     <span class="ansi-red-fg">super().run_setup</span><span class="ansi-red-intense-fg ansi-bold">(setup_script=setup_script)</span>
+  <span class="ansi-red-fg">   </span>     <span class="ansi-red-fg">~~~~~~~~~~~~~~~~~</span><span class="ansi-red-intense-fg ansi-bold">^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+  <span class="ansi-red-fg">   </span>   File <span class="ansi-magenta-fg">"/private/var/folders/g1/_sv3n23d2yq5w04jzglv_r580000gn/T/pip-build-env-krk50o1e/overlay/lib/python3.14/site-packages/setuptools/build_meta.py"</span>, line <span class="ansi-magenta-fg">317</span>, in <span class="ansi-magenta-fg">run_setup</span>
+  <span class="ansi-red-fg">   </span>     <span class="ansi-red-fg">exec</span><span class="ansi-red-intense-fg ansi-bold">(code, locals())</span>
+  <span class="ansi-red-fg">   </span>     <span class="ansi-red-fg">~~~~</span><span class="ansi-red-intense-fg ansi-bold">^^^^^^^^^^^^^^^^</span>
+  <span class="ansi-red-fg">   </span>   File <span class="ansi-magenta-fg">"&lt;string&gt;"</span>, line <span class="ansi-magenta-fg">51</span>, in <span class="ansi-magenta-fg">&lt;module&gt;</span>
+  <span class="ansi-red-fg">   </span>   File <span class="ansi-magenta-fg">"&lt;string&gt;"</span>, line <span class="ansi-magenta-fg">48</span>, in <span class="ansi-magenta-fg">_guard_py_ver</span>
+  <span class="ansi-red-fg">   </span> <span class="ansi-magenta-intense-fg ansi-bold">RuntimeError</span>: <span class="ansi-magenta-fg">Cannot install on Python version 3.14.0; only versions &gt;=3.10,&lt;3.14 are supported.</span>
+  <span class="ansi-red-fg">   </span> <span class="ansi-red-fg">[end of output]</span>
+  
+  <span class="ansi-magenta-intense-fg ansi-bold">note</span>: This error originates from a subprocess, and is likely not a problem with pip.
+<span class="ansi-red-intense-fg ansi-bold">error</span>: <span class="ansi-bold">subprocess-exited-with-error</span>
+
+<span class="ansi-red-fg">×</span> <span class="ansi-green-fg">Getting requirements to build wheel</span> did not run successfully.
+<span class="ansi-red-fg">│</span> exit code: <span class="ansi-cyan-intense-fg ansi-bold">1</span>
+<span class="ansi-red-fg">╰─&gt;</span> See above for output.
+
+<span class="ansi-magenta-intense-fg ansi-bold">note</span>: This error originates from a subprocess, and is likely not a problem with pip.
+Requirement already satisfied: boto3 in /Users/nara/Repository/Attention/Sampa-USP/AbInitio/.venv/lib/python3.14/site-packages (1.40.58)
+Requirement already satisfied: botocore&lt;1.41.0,&gt;=1.40.58 in /Users/nara/Repository/Attention/Sampa-USP/AbInitio/.venv/lib/python3.14/site-packages (from boto3) (1.40.58)
+Requirement already satisfied: jmespath&lt;2.0.0,&gt;=0.7.1 in /Users/nara/Repository/Attention/Sampa-USP/AbInitio/.venv/lib/python3.14/site-packages (from boto3) (1.0.1)
+Requirement already satisfied: s3transfer&lt;0.15.0,&gt;=0.14.0 in /Users/nara/Repository/Attention/Sampa-USP/AbInitio/.venv/lib/python3.14/site-packages (from boto3) (0.14.0)
+Requirement already satisfied: python-dateutil&lt;3.0.0,&gt;=2.1 in /Users/nara/Repository/Attention/Sampa-USP/AbInitio/.venv/lib/python3.14/site-packages (from botocore&lt;1.41.0,&gt;=1.40.58-&gt;boto3) (2.9.0.post0)
+Requirement already satisfied: urllib3!=2.2.0,&lt;3,&gt;=1.25.4 in /Users/nara/Repository/Attention/Sampa-USP/AbInitio/.venv/lib/python3.14/site-packages (from botocore&lt;1.41.0,&gt;=1.40.58-&gt;boto3) (2.5.0)
+Requirement already satisfied: six&gt;=1.5 in /Users/nara/Repository/Attention/Sampa-USP/AbInitio/.venv/lib/python3.14/site-packages (from python-dateutil&lt;3.0.0,&gt;=2.1-&gt;botocore&lt;1.41.0,&gt;=1.40.58-&gt;boto3) (1.17.0)
+Requirement already satisfied: qiskit-nature in /Users/nara/Repository/Attention/Sampa-USP/AbInitio/.venv/lib/python3.14/site-packages (0.7.2)
+Requirement already satisfied: qiskit&gt;=0.44 in /Users/nara/Repository/Attention/Sampa-USP/AbInitio/.venv/lib/python3.14/site-packages (from qiskit-nature) (2.2.2)
+Requirement already satisfied: qiskit-algorithms&gt;=0.2.1 in /Users/nara/Repository/Attention/Sampa-USP/AbInitio/.venv/lib/python3.14/site-packages (from qiskit-nature) (0.4.0)
+Requirement already satisfied: scipy&gt;=1.4 in /Users/nara/Repository/Attention/Sampa-USP/AbInitio/.venv/lib/python3.14/site-packages (from qiskit-nature) (1.16.2)
+Requirement already satisfied: numpy&gt;=1.17 in /Users/nara/Repository/Attention/Sampa-USP/AbInitio/.venv/lib/python3.14/site-packages (from qiskit-nature) (2.3.4)
+Requirement already satisfied: psutil&gt;=5 in /Users/nara/Repository/Attention/Sampa-USP/AbInitio/.venv/lib/python3.14/site-packages (from qiskit-nature) (7.1.1)
+Requirement already satisfied: setuptools&gt;=40.1.0 in /Users/nara/Repository/Attention/Sampa-USP/AbInitio/.venv/lib/python3.14/site-packages (from qiskit-nature) (80.9.0)
+Requirement already satisfied: typing-extensions in /Users/nara/Repository/Attention/Sampa-USP/AbInitio/.venv/lib/python3.14/site-packages (from qiskit-nature) (4.15.0)
+Requirement already satisfied: h5py in /Users/nara/Repository/Attention/Sampa-USP/AbInitio/.venv/lib/python3.14/site-packages (from qiskit-nature) (3.15.1)
+Requirement already satisfied: rustworkx&gt;=0.12 in /Users/nara/Repository/Attention/Sampa-USP/AbInitio/.venv/lib/python3.14/site-packages (from qiskit-nature) (0.17.1)
+Requirement already satisfied: dill&gt;=0.3 in /Users/nara/Repository/Attention/Sampa-USP/AbInitio/.venv/lib/python3.14/site-packages (from qiskit&gt;=0.44-&gt;qiskit-nature) (0.4.0)
+Requirement already satisfied: stevedore&gt;=3.0.0 in /Users/nara/Repository/Attention/Sampa-USP/AbInitio/.venv/lib/python3.14/site-packages (from qiskit&gt;=0.44-&gt;qiskit-nature) (5.5.0)
+Collecting qiskit-aer
+  Using cached qiskit_aer-0.17.2.tar.gz (6.6 MB)
+  Installing build dependencies ... -^C
+Requirement already satisfied: qiskit-ibm-runtime in /Users/nara/Repository/Attention/Sampa-USP/AbInitio/.venv/lib/python3.14/site-packages (0.43.1)
+Requirement already satisfied: requests&gt;=2.19 in /Users/nara/Repository/Attention/Sampa-USP/AbInitio/.venv/lib/python3.14/site-packages (from qiskit-ibm-runtime) (2.32.5)
+Requirement already satisfied: requests-ntlm&gt;=1.1.0 in /Users/nara/Repository/Attention/Sampa-USP/AbInitio/.venv/lib/python3.14/site-packages (from qiskit-ibm-runtime) (1.3.0)
+Requirement already satisfied: numpy&gt;=1.13 in /Users/nara/Repository/Attention/Sampa-USP/AbInitio/.venv/lib/python3.14/site-packages (from qiskit-ibm-runtime) (2.3.4)
+Requirement already satisfied: urllib3&gt;=1.21.1 in /Users/nara/Repository/Attention/Sampa-USP/AbInitio/.venv/lib/python3.14/site-packages (from qiskit-ibm-runtime) (2.5.0)
+Requirement already satisfied: python-dateutil&gt;=2.8.0 in /Users/nara/Repository/Attention/Sampa-USP/AbInitio/.venv/lib/python3.14/site-packages (from qiskit-ibm-runtime) (2.9.0.post0)
+Requirement already satisfied: ibm-platform-services&gt;=0.22.6 in /Users/nara/Repository/Attention/Sampa-USP/AbInitio/.venv/lib/python3.14/site-packages (from qiskit-ibm-runtime) (0.69.0)
+Requirement already satisfied: pydantic&gt;=2.5.0 in /Users/nara/Repository/Attention/Sampa-USP/AbInitio/.venv/lib/python3.14/site-packages (from qiskit-ibm-runtime) (2.12.3)
+Requirement already satisfied: qiskit&gt;=1.4.1 in /Users/nara/Repository/Attention/Sampa-USP/AbInitio/.venv/lib/python3.14/site-packages (from qiskit-ibm-runtime) (2.2.2)
+Requirement already satisfied: packaging in /Users/nara/Repository/Attention/Sampa-USP/AbInitio/.venv/lib/python3.14/site-packages (from qiskit-ibm-runtime) (25.0)
+Requirement already satisfied: ibm_cloud_sdk_core&lt;4.0.0,&gt;=3.24.2 in /Users/nara/Repository/Attention/Sampa-USP/AbInitio/.venv/lib/python3.14/site-packages (from ibm-platform-services&gt;=0.22.6-&gt;qiskit-ibm-runtime) (3.24.2)
+Requirement already satisfied: PyJWT&lt;3.0.0,&gt;=2.10.1 in /Users/nara/Repository/Attention/Sampa-USP/AbInitio/.venv/lib/python3.14/site-packages (from ibm_cloud_sdk_core&lt;4.0.0,&gt;=3.24.2-&gt;ibm-platform-services&gt;=0.22.6-&gt;qiskit-ibm-runtime) (2.10.1)
+Requirement already satisfied: six&gt;=1.5 in /Users/nara/Repository/Attention/Sampa-USP/AbInitio/.venv/lib/python3.14/site-packages (from python-dateutil&gt;=2.8.0-&gt;qiskit-ibm-runtime) (1.17.0)
+Requirement already satisfied: charset_normalizer&lt;4,&gt;=2 in /Users/nara/Repository/Attention/Sampa-USP/AbInitio/.venv/lib/python3.14/site-packages (from requests&gt;=2.19-&gt;qiskit-ibm-runtime) (3.4.4)
+Requirement already satisfied: idna&lt;4,&gt;=2.5 in /Users/nara/Repository/Attention/Sampa-USP/AbInitio/.venv/lib/python3.14/site-packages (from requests&gt;=2.19-&gt;qiskit-ibm-runtime) (3.11)
+Requirement already satisfied: certifi&gt;=2017.4.17 in /Users/nara/Repository/Attention/Sampa-USP/AbInitio/.venv/lib/python3.14/site-packages (from requests&gt;=2.19-&gt;qiskit-ibm-runtime) (2025.10.5)
+Requirement already satisfied: annotated-types&gt;=0.6.0 in /Users/nara/Repository/Attention/Sampa-USP/AbInitio/.venv/lib/python3.14/site-packages (from pydantic&gt;=2.5.0-&gt;qiskit-ibm-runtime) (0.7.0)
+Requirement already satisfied: pydantic-core==2.41.4 in /Users/nara/Repository/Attention/Sampa-USP/AbInitio/.venv/lib/python3.14/site-packages (from pydantic&gt;=2.5.0-&gt;qiskit-ibm-runtime) (2.41.4)
+Requirement already satisfied: typing-extensions&gt;=4.14.1 in /Users/nara/Repository/Attention/Sampa-USP/AbInitio/.venv/lib/python3.14/site-packages (from pydantic&gt;=2.5.0-&gt;qiskit-ibm-runtime) (4.15.0)
+Requirement already satisfied: typing-inspection&gt;=0.4.2 in /Users/nara/Repository/Attention/Sampa-USP/AbInitio/.venv/lib/python3.14/site-packages (from pydantic&gt;=2.5.0-&gt;qiskit-ibm-runtime) (0.4.2)
+Requirement already satisfied: rustworkx&gt;=0.15.0 in /Users/nara/Repository/Attention/Sampa-USP/AbInitio/.venv/lib/python3.14/site-packages (from qiskit&gt;=1.4.1-&gt;qiskit-ibm-runtime) (0.17.1)
+Requirement already satisfied: scipy&gt;=1.5 in /Users/nara/Repository/Attention/Sampa-USP/AbInitio/.venv/lib/python3.14/site-packages (from qiskit&gt;=1.4.1-&gt;qiskit-ibm-runtime) (1.16.2)
+Requirement already satisfied: dill&gt;=0.3 in /Users/nara/Repository/Attention/Sampa-USP/AbInitio/.venv/lib/python3.14/site-packages (from qiskit&gt;=1.4.1-&gt;qiskit-ibm-runtime) (0.4.0)
+Requirement already satisfied: stevedore&gt;=3.0.0 in /Users/nara/Repository/Attention/Sampa-USP/AbInitio/.venv/lib/python3.14/site-packages (from qiskit&gt;=1.4.1-&gt;qiskit-ibm-runtime) (5.5.0)
+Requirement already satisfied: cryptography&gt;=1.3 in /Users/nara/Repository/Attention/Sampa-USP/AbInitio/.venv/lib/python3.14/site-packages (from requests-ntlm&gt;=1.1.0-&gt;qiskit-ibm-runtime) (46.0.3)
+Requirement already satisfied: pyspnego&gt;=0.4.0 in /Users/nara/Repository/Attention/Sampa-USP/AbInitio/.venv/lib/python3.14/site-packages (from requests-ntlm&gt;=1.1.0-&gt;qiskit-ibm-runtime) (0.12.0)
+Requirement already satisfied: cffi&gt;=2.0.0 in /Users/nara/Repository/Attention/Sampa-USP/AbInitio/.venv/lib/python3.14/site-packages (from cryptography&gt;=1.3-&gt;requests-ntlm&gt;=1.1.0-&gt;qiskit-ibm-runtime) (2.0.0)
+Requirement already satisfied: pycparser in /Users/nara/Repository/Attention/Sampa-USP/AbInitio/.venv/lib/python3.14/site-packages (from cffi&gt;=2.0.0-&gt;cryptography&gt;=1.3-&gt;requests-ntlm&gt;=1.1.0-&gt;qiskit-ibm-runtime) (2.23)
+Collecting qiskit_braket_provider
+  Using cached qiskit_braket_provider-0.7.0-py3-none-any.whl.metadata (3.9 kB)
+Requirement already satisfied: certifi&gt;=2021.5.30 in /Users/nara/Repository/Attention/Sampa-USP/AbInitio/.venv/lib/python3.14/site-packages (from qiskit_braket_provider) (2025.10.5)
+Requirement already satisfied: qiskit&gt;=0.34.2 in /Users/nara/Repository/Attention/Sampa-USP/AbInitio/.venv/lib/python3.14/site-packages (from qiskit_braket_provider) (2.2.2)
+Collecting qiskit-ionq&gt;=0.5.2 (from qiskit_braket_provider)
+  Using cached qiskit_ionq-1.0.2-py3-none-any.whl.metadata (8.1 kB)
+Collecting amazon-braket-sdk&gt;=1.99.0 (from qiskit_braket_provider)
+  Using cached amazon_braket_sdk-1.103.0-py3-none-any.whl.metadata (14 kB)
+Requirement already satisfied: setuptools&gt;=40.1.0 in /Users/nara/Repository/Attention/Sampa-USP/AbInitio/.venv/lib/python3.14/site-packages (from qiskit_braket_provider) (80.9.0)
+Requirement already satisfied: numpy&gt;=1.3 in /Users/nara/Repository/Attention/Sampa-USP/AbInitio/.venv/lib/python3.14/site-packages (from qiskit_braket_provider) (2.3.4)
+Collecting amazon-braket-schemas&gt;=1.26.1 (from amazon-braket-sdk&gt;=1.99.0-&gt;qiskit_braket_provider)
+  Using cached amazon_braket_schemas-1.26.1-py3-none-any.whl.metadata (6.1 kB)
+Collecting amazon-braket-default-simulator&gt;=1.32.0 (from amazon-braket-sdk&gt;=1.99.0-&gt;qiskit_braket_provider)
+  Using cached amazon_braket_default_simulator-1.32.0-py3-none-any.whl.metadata (6.5 kB)
+Collecting oqpy~=0.3.7 (from amazon-braket-sdk&gt;=1.99.0-&gt;qiskit_braket_provider)
+  Using cached oqpy-0.3.9-py3-none-any.whl.metadata (8.2 kB)
+Collecting backoff (from amazon-braket-sdk&gt;=1.99.0-&gt;qiskit_braket_provider)
+  Using cached backoff-2.2.1-py3-none-any.whl.metadata (14 kB)
+Collecting boltons (from amazon-braket-sdk&gt;=1.99.0-&gt;qiskit_braket_provider)
+  Using cached boltons-25.0.0-py3-none-any.whl.metadata (6.5 kB)
+Requirement already satisfied: boto3&gt;=1.28.53 in /Users/nara/Repository/Attention/Sampa-USP/AbInitio/.venv/lib/python3.14/site-packages (from amazon-braket-sdk&gt;=1.99.0-&gt;qiskit_braket_provider) (1.40.58)
+Collecting cloudpickle==2.2.1 (from amazon-braket-sdk&gt;=1.99.0-&gt;qiskit_braket_provider)
+  Using cached cloudpickle-2.2.1-py3-none-any.whl.metadata (6.9 kB)
+Collecting nest-asyncio (from amazon-braket-sdk&gt;=1.99.0-&gt;qiskit_braket_provider)
+  Using cached nest_asyncio-1.6.0-py3-none-any.whl.metadata (2.8 kB)
+Collecting networkx (from amazon-braket-sdk&gt;=1.99.0-&gt;qiskit_braket_provider)
+  Using cached networkx-3.5-py3-none-any.whl.metadata (6.3 kB)
+Collecting openpulse (from amazon-braket-sdk&gt;=1.99.0-&gt;qiskit_braket_provider)
+  Using cached openpulse-1.0.1-py3-none-any.whl.metadata (2.0 kB)
+Collecting openqasm3 (from amazon-braket-sdk&gt;=1.99.0-&gt;qiskit_braket_provider)
+  Using cached openqasm3-1.0.1-py3-none-any.whl.metadata (6.0 kB)
+Collecting sympy (from amazon-braket-sdk&gt;=1.99.0-&gt;qiskit_braket_provider)
+  Using cached sympy-1.14.0-py3-none-any.whl.metadata (12 kB)
+Collecting backports.entry-points-selectable (from amazon-braket-sdk&gt;=1.99.0-&gt;qiskit_braket_provider)
+  Using cached backports.entry_points_selectable-1.3.0-py3-none-any.whl.metadata (4.1 kB)
+Collecting mypy-extensions&gt;=0.2.0 (from oqpy~=0.3.7-&gt;amazon-braket-sdk&gt;=1.99.0-&gt;qiskit_braket_provider)
+  Using cached mypy_extensions-1.1.0-py3-none-any.whl.metadata (1.1 kB)
+Collecting numba (from amazon-braket-default-simulator&gt;=1.32.0-&gt;amazon-braket-sdk&gt;=1.99.0-&gt;qiskit_braket_provider)
+  Using cached numba-0.62.1.tar.gz (2.7 MB)
+  Installing build dependencies ... done
+  Getting requirements to build wheel ... error
+  <span class="ansi-red-intense-fg ansi-bold">error</span>: <span class="ansi-bold">subprocess-exited-with-error</span>
+  
+  <span class="ansi-red-fg">×</span> <span class="ansi-green-fg">Getting requirements to build wheel</span> did not run successfully.
+  <span class="ansi-red-fg">│</span> exit code: <span class="ansi-cyan-intense-fg ansi-bold">1</span>
+  <span class="ansi-red-fg">╰─&gt;</span> <span class="ansi-red-fg">[24 lines of output]</span>
+  <span class="ansi-red-fg">   </span> Traceback (most recent call last):
+  <span class="ansi-red-fg">   </span>   File <span class="ansi-magenta-fg">"/Users/nara/Repository/Attention/Sampa-USP/AbInitio/.venv/lib/python3.14/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py"</span>, line <span class="ansi-magenta-fg">389</span>, in <span class="ansi-magenta-fg">&lt;module&gt;</span>
+  <span class="ansi-red-fg">   </span>     <span class="ansi-red-fg">main</span><span class="ansi-red-intense-fg ansi-bold">()</span>
+  <span class="ansi-red-fg">   </span>     <span class="ansi-red-fg">~~~~</span><span class="ansi-red-intense-fg ansi-bold">^^</span>
+  <span class="ansi-red-fg">   </span>   File <span class="ansi-magenta-fg">"/Users/nara/Repository/Attention/Sampa-USP/AbInitio/.venv/lib/python3.14/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py"</span>, line <span class="ansi-magenta-fg">373</span>, in <span class="ansi-magenta-fg">main</span>
+  <span class="ansi-red-fg">   </span>     json_out["return_val"] = <span class="ansi-red-fg">hook</span><span class="ansi-red-intense-fg ansi-bold">(**hook_input["kwargs"])</span>
+  <span class="ansi-red-fg">   </span>                              <span class="ansi-red-fg">~~~~</span><span class="ansi-red-intense-fg ansi-bold">^^^^^^^^^^^^^^^^^^^^^^^^</span>
+  <span class="ansi-red-fg">   </span>   File <span class="ansi-magenta-fg">"/Users/nara/Repository/Attention/Sampa-USP/AbInitio/.venv/lib/python3.14/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py"</span>, line <span class="ansi-magenta-fg">143</span>, in <span class="ansi-magenta-fg">get_requires_for_build_wheel</span>
+  <span class="ansi-red-fg">   </span>     return hook(config_settings)
+  <span class="ansi-red-fg">   </span>   File <span class="ansi-magenta-fg">"/private/var/folders/g1/_sv3n23d2yq5w04jzglv_r580000gn/T/pip-build-env-t939hkdj/overlay/lib/python3.14/site-packages/setuptools/build_meta.py"</span>, line <span class="ansi-magenta-fg">331</span>, in <span class="ansi-magenta-fg">get_requires_for_build_wheel</span>
+  <span class="ansi-red-fg">   </span>     return <span class="ansi-red-fg">self._get_build_requires</span><span class="ansi-red-intense-fg ansi-bold">(config_settings, requirements=[])</span>
+  <span class="ansi-red-fg">   </span>            <span class="ansi-red-fg">~~~~~~~~~~~~~~~~~~~~~~~~</span><span class="ansi-red-intense-fg ansi-bold">^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+  <span class="ansi-red-fg">   </span>   File <span class="ansi-magenta-fg">"/private/var/folders/g1/_sv3n23d2yq5w04jzglv_r580000gn/T/pip-build-env-t939hkdj/overlay/lib/python3.14/site-packages/setuptools/build_meta.py"</span>, line <span class="ansi-magenta-fg">301</span>, in <span class="ansi-magenta-fg">_get_build_requires</span>
+  <span class="ansi-red-fg">   </span>     <span class="ansi-red-fg">self.run_setup</span><span class="ansi-red-intense-fg ansi-bold">()</span>
+  <span class="ansi-red-fg">   </span>     <span class="ansi-red-fg">~~~~~~~~~~~~~~</span><span class="ansi-red-intense-fg ansi-bold">^^</span>
+  <span class="ansi-red-fg">   </span>   File <span class="ansi-magenta-fg">"/private/var/folders/g1/_sv3n23d2yq5w04jzglv_r580000gn/T/pip-build-env-t939hkdj/overlay/lib/python3.14/site-packages/setuptools/build_meta.py"</span>, line <span class="ansi-magenta-fg">512</span>, in <span class="ansi-magenta-fg">run_setup</span>
+  <span class="ansi-red-fg">   </span>     <span class="ansi-red-fg">super().run_setup</span><span class="ansi-red-intense-fg ansi-bold">(setup_script=setup_script)</span>
+  <span class="ansi-red-fg">   </span>     <span class="ansi-red-fg">~~~~~~~~~~~~~~~~~</span><span class="ansi-red-intense-fg ansi-bold">^^^^^^^^^^^^^^^^^^^^^^^^^^^</span>
+  <span class="ansi-red-fg">   </span>   File <span class="ansi-magenta-fg">"/private/var/folders/g1/_sv3n23d2yq5w04jzglv_r580000gn/T/pip-build-env-t939hkdj/overlay/lib/python3.14/site-packages/setuptools/build_meta.py"</span>, line <span class="ansi-magenta-fg">317</span>, in <span class="ansi-magenta-fg">run_setup</span>
+  <span class="ansi-red-fg">   </span>     <span class="ansi-red-fg">exec</span><span class="ansi-red-intense-fg ansi-bold">(code, locals())</span>
+  <span class="ansi-red-fg">   </span>     <span class="ansi-red-fg">~~~~</span><span class="ansi-red-intense-fg ansi-bold">^^^^^^^^^^^^^^^^</span>
+  <span class="ansi-red-fg">   </span>   File <span class="ansi-magenta-fg">"&lt;string&gt;"</span>, line <span class="ansi-magenta-fg">51</span>, in <span class="ansi-magenta-fg">&lt;module&gt;</span>
+  <span class="ansi-red-fg">   </span>   File <span class="ansi-magenta-fg">"&lt;string&gt;"</span>, line <span class="ansi-magenta-fg">48</span>, in <span class="ansi-magenta-fg">_guard_py_ver</span>
+  <span class="ansi-red-fg">   </span> <span class="ansi-magenta-intense-fg ansi-bold">RuntimeError</span>: <span class="ansi-magenta-fg">Cannot install on Python version 3.14.0; only versions &gt;=3.10,&lt;3.14 are supported.</span>
+  <span class="ansi-red-fg">   </span> <span class="ansi-red-fg">[end of output]</span>
+  
+  <span class="ansi-magenta-intense-fg ansi-bold">note</span>: This error originates from a subprocess, and is likely not a problem with pip.
+<span class="ansi-red-intense-fg ansi-bold">error</span>: <span class="ansi-bold">subprocess-exited-with-error</span>
+
+<span class="ansi-red-fg">×</span> <span class="ansi-green-fg">Getting requirements to build wheel</span> did not run successfully.
+<span class="ansi-red-fg">│</span> exit code: <span class="ansi-cyan-intense-fg ansi-bold">1</span>
+<span class="ansi-red-fg">╰─&gt;</span> See above for output.
+
+<span class="ansi-magenta-intense-fg ansi-bold">note</span>: This error originates from a subprocess, and is likely not a problem with pip.
+Requirement already satisfied: pyscf in /Users/nara/Repository/Attention/Sampa-USP/AbInitio/.venv/lib/python3.14/site-packages (2.11.0)
+Requirement already satisfied: numpy!=1.16,!=1.17,&gt;=1.13 in /Users/nara/Repository/Attention/Sampa-USP/AbInitio/.venv/lib/python3.14/site-packages (from pyscf) (2.3.4)
+Requirement already satisfied: scipy&gt;=1.6.0 in /Users/nara/Repository/Attention/Sampa-USP/AbInitio/.venv/lib/python3.14/site-packages (from pyscf) (1.16.2)
+Requirement already satisfied: h5py&gt;=2.7 in /Users/nara/Repository/Attention/Sampa-USP/AbInitio/.venv/lib/python3.14/site-packages (from pyscf) (3.15.1)
+Requirement already satisfied: setuptools in /Users/nara/Repository/Attention/Sampa-USP/AbInitio/.venv/lib/python3.14/site-packages (from pyscf) (80.9.0)
+</pre>
 </div>
 </div>
 </div>
@@ -7634,7 +7854,7 @@ Requirement already satisfied: setuptools in /Users/chanahyo/Repository/Quantum 
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [2]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [4]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">from</span><span class="w"> </span><span class="nn">boto3</span><span class="w"> </span><span class="kn">import</span> <span class="n">Session</span>
@@ -7666,7 +7886,7 @@ Requirement already satisfied: setuptools in /Users/chanahyo/Repository/Quantum 
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [3]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [5]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="kn">import</span><span class="w"> </span><span class="nn">json</span>
@@ -7695,12 +7915,12 @@ Requirement already satisfied: setuptools in /Users/chanahyo/Repository/Quantum 
 </div>
 </div>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs">
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell">
 <div class="jp-Cell-inputWrapper" tabindex="0">
 <div class="jp-Collapser jp-InputCollapser jp-Cell-inputCollapser">
 </div>
 <div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In [36]:</div>
+<div class="jp-InputPrompt jp-InputArea-prompt">In [7]:</div>
 <div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
 <div class="cm-editor cm-s-jupyter">
 <div class="highlight hl-ipython3"><pre><span></span><span class="c1">#Python Default </span>
@@ -7799,6 +8019,28 @@ Requirement already satisfied: setuptools in /Users/chanahyo/Repository/Quantum 
 <span class="c1"># %matplotlib widget</span>
 <span class="c1">#%matplotlib inline</span>
 </pre></div>
+</div>
+</div>
+</div>
+</div>
+<div class="jp-Cell-outputWrapper">
+<div class="jp-Collapser jp-OutputCollapser jp-Cell-outputCollapser">
+</div>
+<div class="jp-OutputArea jp-Cell-outputArea">
+<div class="jp-OutputArea-child">
+<div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="application/vnd.jupyter.stderr" tabindex="0">
+<pre>
+<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
+<span class="ansi-red-fg">ModuleNotFoundError</span>                       Traceback (most recent call last)
+<span class="ansi-cyan-fg">Cell</span><span class="ansi-cyan-fg"> </span><span class="ansi-green-fg">In[7]</span><span class="ansi-green-fg">, line 23</span>
+<span class="ansi-green-fg">     19</span> <span class="ansi-bold" style="color: rgb(0,135,0)">from</span><span style="color: rgb(188,188,188)"> </span><span class="ansi-blue-intense-fg ansi-bold">scipy</span><span class="ansi-blue-intense-fg ansi-bold">.</span><span class="ansi-blue-intense-fg ansi-bold">optimize</span><span style="color: rgb(188,188,188)"> </span><span class="ansi-bold" style="color: rgb(0,135,0)">import</span> curve_fit
+<span class="ansi-green-fg">     21</span> <span style="color: rgb(95,135,135)">#from objproxies import *</span>
+<span class="ansi-green-fg">---&gt; </span><span class="ansi-green-fg">23</span> <span class="ansi-bold" style="color: rgb(0,135,0)">import</span><span style="color: rgb(188,188,188)"> </span><span class="ansi-blue-intense-fg ansi-bold">matplotlib</span><span class="ansi-blue-intense-fg ansi-bold">.</span><span class="ansi-blue-intense-fg ansi-bold">pyplot</span><span style="color: rgb(188,188,188)"> </span><span class="ansi-bold" style="color: rgb(0,135,0)">as</span><span style="color: rgb(188,188,188)"> </span><span class="ansi-blue-intense-fg ansi-bold">plt</span>
+<span class="ansi-green-fg">     25</span> <span class="ansi-bold" style="color: rgb(0,135,0)">from</span><span style="color: rgb(188,188,188)"> </span><span class="ansi-blue-intense-fg ansi-bold">scipy</span><span class="ansi-blue-intense-fg ansi-bold">.</span><span class="ansi-blue-intense-fg ansi-bold">optimize</span><span style="color: rgb(188,188,188)"> </span><span class="ansi-bold" style="color: rgb(0,135,0)">import</span> curve_fit
+<span class="ansi-green-fg">     27</span> <span style="color: rgb(95,135,135)">#Qiskit</span>
+
+<span class="ansi-red-fg">ModuleNotFoundError</span>: No module named 'matplotlib'</pre>
 </div>
 </div>
 </div>
