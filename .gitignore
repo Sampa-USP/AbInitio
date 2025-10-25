@@ -1,1 +1,136 @@
 .DS_Store
+# ==============================
+# Python
+# ==============================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Compiled binaries / shared objects
+*.so
+*.dll
+*.dylib
+*.exe
+*.out
+*.a
+*.o
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.ipynb_checkpoints/
+.python-version
+
+# Cache / Logs
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+*.old
+*.DS_Store
+*.egg-info/
+.eggs/
+.cache/
+.mypy_cache/
+pytest_cache/
+.prof
+
+# ==============================
+# Jupyter / IPython
+# ==============================
+.ipynb_checkpoints
+*.nbconvert.ipynb
+*.nbconvert.html
+*.nbconvert.pdf
+
+# Auto-saved notebooks (VSCode/JupyterLab)
+*.autosave.ipynb
+
+# Jupyter metadata
+.ipython/
+.jupyter/
+~$*
+
+# ==============================
+# Notebooks outputs (optional)
+# Uncomment the next line to ignore large output cells
+# *.ipynb
+
+# ==============================
+# Data / Experiments
+# ==============================
+data/
+datasets/
+*.csv
+*.json
+*.hdf5
+*.pkl
+*.db
+*.npz
+*.npy
+
+# ==============================
+# Site / Build Artifacts
+# ==============================
+# Static site (GitHub Pages, Jekyll, React, etc.)
+_site/
+site/
+public/
+build/
+dist/
+node_modules/
+coverage/
+docs/.sass-cache/
+docs/_site/
+docs/_build/
+docs/build/
+*.map
+
+# Local preview caches
+.cache/
+.next/
+out/
+.DS_Store
+
+# ==============================
+# Secrets / Config
+# ==============================
+.env
+.env.*
+*.pem
+*.key
+*.crt
+*.token
+*.aws
+*.braket
+*.secrets.json
+
+# ==============================
+# OS / IDE files
+# ==============================
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editors
+.vscode/
+.idea/
+*.code-workspace
+*.sublime-project
+*.sublime-workspace
+
+# ==============================
+# Jekyll / GitHub Pages
+# ==============================
+Gemfile.lock
+.jekyll-cache/
+.jekyll-metadata

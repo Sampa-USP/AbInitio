@@ -1,12 +1,10 @@
 nbconvert
 jupyter
-amazon-braket-sdk
+amazon-braket-sdk>=1.65
+amazon-braket-pennylane-plugin>=1.22
 boto3
-qiskit-nature
-qiskit-aer
-qiskit-ibm-runtime
-qiskit_braket_provider
 pyscf
 pandas
 matplotlib
 numpy
+pennylane>=0.36
